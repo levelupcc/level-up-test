@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LevelUp</title>
+    <description>Resources for the global digital safety training community.</description>
+    <link>https://level-up.tin.fyi/</link>
+    <atom:link href="https://level-up.tin.fyi/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Sep 2023 17:18:59 +0000</pubDate>
+    <lastBuildDate>Sat, 23 Sep 2023 17:18:59 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Welcome to the New LevelUp</title>
+        <description>&lt;h2 id=&quot;welcome-to-the-new-and-improved-levelup-website&quot;&gt;Welcome to the new and improved LevelUp website!&lt;/h2&gt;
+
+&lt;p&gt;We’re excited to finally be launching the new LevelUp site, after many months of gathering user feedback, building wireframes, intensive user testing, and iteration. This is the culmination of the hard work of not just designers, UX experts, web developers, and the project team -  most importantly, it’s the result of the incredible work of the global network of trainers that LevelUp collaborates with.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-addition-to-the-new-website-all-levelup-content-is-also-now-available-on-its-new-github-repository&quot;&gt;In addition to the new website, all LevelUp content is also now available on its new GitHub repository:&lt;/h4&gt;
+
+&lt;h3 id=&quot;visit-the-levelup-repo-on-github&quot;&gt;Visit the LevelUp repo on GitHub:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/levelupcc/level-up&quot;&gt;https://github.com/levelupcc/level-up&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;visit-the-levelup-github-user-wiki&quot;&gt;Visit the LevelUp GitHub User Wiki:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/levelupcc/level-up/wiki&quot;&gt;https://github.com/levelupcc/level-up/wiki&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-and-improvements&quot;&gt;Changes and Improvements&lt;/h2&gt;
+&lt;p&gt;After a great deal of user feedback on the old site, which fed directly into the overhaul process for the new site, we’ve introduced a completely overhauled user experience on the new LevelUp site. The design, features, and functionality of the new site were all
+based directly on the feedback and input received from many of you.&lt;/p&gt;
+
+&lt;p&gt;Working together with our amazing partners at &lt;a href=&quot;https://www.theengineroom.org/&quot;&gt;the engine room&lt;/a&gt;, who led the re-design and overhaul process, the existing website has been re-created with a simplified user interface, streamlined navigation, easier content interaction, and clearer channels for contribution and feedback.&lt;/p&gt;
+
+&lt;h4 id=&quot;read-our-new-getting-started-with-levelup-guide-to-explore-the-new-site&quot;&gt;&lt;a href=&quot;/community/getting-started/&quot;&gt;Read our new “Getting Started with LevelUp” guide to explore the new site »&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;check-out-new-features-for-contribution-and-feedback-on-contributing-to-levelup&quot;&gt;&lt;a href=&quot;/community/contribute/&quot;&gt;Check out new features for contribution and feedback on “Contributing to LevelUp” »&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;explore-the-new-community-tools-and-resources-page-for-other-useful-digital-security-content-from-across-the-community&quot;&gt;&lt;a href=&quot;/community/community-resources-and-tools/&quot;&gt;Explore the new “Community Tools and Resources” page for other useful digital security content from across the community »&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;find-out-more-about-our-simplified-curriculum-module-structure-in-our-how-to-using-the-levelup-trainers-curriculum-guide&quot;&gt;&lt;a href=&quot;/before-an-event/using-levelup-trainers-curriculum/&quot;&gt;Find out more about our simplified curriculum module structure in our “How-To: Using the LevelUp Trainers’ Curriculum” guide »&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;who-is-levelup-our-partners-and-collaborators-page-once-populated-will-give-credit-to-the-many-partners-and-collaborators-whove-made-levelup-possible&quot;&gt;&lt;a href=&quot;/community/partners-and-collaborators/&quot;&gt;Who is LevelUp? Our “Partners and Collaborators” page, once populated, will give credit to the many partners and collaborators who’ve made LevelUp possible »&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Plus: Existing content has been refreshed, new content has been added, and more new content will continue to be added as the site grows!&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h2&gt;
+
+&lt;h3 id=&quot;during-migration&quot;&gt;During migration…&lt;/h3&gt;
+&lt;p&gt;We’ll be adding the ability to download curriculum module content in raw markdown directly from the website, to make using LevelUp’s content in your own training materials much easier.&lt;/p&gt;
+
+&lt;h3 id=&quot;once-migration-is-complete&quot;&gt;Once migration is complete…&lt;/h3&gt;
+&lt;p&gt;We’ll send a notification once the original [level-up.cc] URL is functional for the new website, and distributing a post-launch feedback survey so we can begin prioritizing further improvements and populating the GitHub issue queue.&lt;/p&gt;
+
+&lt;h3 id=&quot;following-migration&quot;&gt;Following migration…&lt;/h3&gt;
+&lt;p&gt;We’ll also be adding new graphics, pulling in more content from other Creative Commons licensed, community-created digital safety resources, and continuing to improve and update the site.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the meantime, please let us know your thoughts and feedback on the new site - this represents a new chapter in the life of LevelUp, and one that we’re looking forward to continuing with your help. More to come this week!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;this-resource-is-continually-evolving-as-is-the-community&quot;&gt;This resource is continually evolving, as is the community.&lt;/h4&gt;
+&lt;p&gt;Send us an email at &lt;a href=&quot;mailto: levelup@riseup.net&quot;&gt;levelup@riseup.net&lt;/a&gt; (&lt;a href=&quot;http://pgp.mit.edu/pks/lookup?op=get&amp;amp;search=0x207BFB9591A638BE&quot;&gt;GPG public key here&lt;/a&gt;) with feedback or comments! You can also request to join the &lt;strong&gt;LevelUp Mailing List&lt;/strong&gt;, to stay updated with the latest on LevelUp, be informed of changes or improvements to the site, and interact with others in the training community. 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+        <link>https://level-up.tin.fyi/news/2016-07-11-new-levelup-site-launch/</link>
+        <guid isPermaLink="true">https://level-up.tin.fyi/news/2016-07-11-new-levelup-site-launch/</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Fake</title>
+        <description>&lt;h3 id=&quot;fake-title&quot;&gt;Fake title&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;list&lt;/li&gt;
+  &lt;li&gt;item&lt;/li&gt;
+  &lt;li&gt;here&lt;/li&gt;
+  &lt;li&gt;new item&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+        <link>https://level-up.tin.fyi/2016/05/28/fake.html</link>
+        <guid isPermaLink="true">https://level-up.tin.fyi/2016/05/28/fake.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Does This Work?</title>
+        <description>&lt;p&gt;Test. Test. Test.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+        <link>https://level-up.tin.fyi/community/community-resources-and-tools/2016-04-11-community/</link>
+        <guid isPermaLink="true">https://level-up.tin.fyi/community/community-resources-and-tools/2016-04-11-community/</guid>
+        
+        
+        <category>resources</category>
+        
+      </item>
+    
+  </channel>
+</rss>
