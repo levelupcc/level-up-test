@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <title>LevelUp</title>
+  <meta name="description" content="Resources for the global digital safety training community.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://level-up.tin.fyi/curriculum/safer-communication/pgp-gpg-email-encryption/deepening/thunderbird-and-gpg">
+  <link rel="alternate" type="application/rss+xml" title="LevelUp" href="https://level-up.tin.fyi/feed.xml">
+  <!-- <script
+type="text/javascript">window.liveSettings={api_key:"9fa8aae90c864b609e215c01848beab0"}</script>
+  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script> -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.0/anchor.min.js"></script>
+  <script async defer src="https://hypothes.is/embed.js"></script>
+  <script async defer src="/assets/js/main.js"></script>
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.level-up.cc/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+<body class="txlive">
+  <div class="outer-wrapper">
+    <div class="inner-wrapper">
+      <header class="site-header">
+  <h1 class="site-header-title"><a class="site-header-link" href="/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="header-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="320px" height="20.143px" viewBox="0 0 377 77.143" enable-background="new 0 0 377 77.143" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M8.153,21.929H28.92v6.04h-6.416v40.88H44.58c0.45,0,0.901-0.085,1.35-0.26
+			c0.448-0.174,0.859-0.4,1.226-0.681c0.365-0.278,0.659-0.598,0.886-0.961c0.225-0.359,0.337-0.728,0.337-1.099v-6.667h8.021
+			v15.674H8.153v-6.007h6.08v-40.88h-6.08V21.929z"/>
+		<path fill="#FFFFFF" d="M68.47,57.607c0,1.026,0.092,1.962,0.274,2.812c0.183,0.852,0.442,1.659,0.78,2.428
+			c1.042,2.327,2.708,4.077,5.002,5.253c2.294,1.177,4.89,1.765,7.789,1.765c2.279,0,4.492-0.264,6.647-0.787
+			c2.151-0.523,4.41-1.344,6.773-2.463L98.9,71.05c-2.87,1.63-5.751,2.84-8.65,3.631c-2.899,0.791-5.91,1.186-9.037,1.186
+			c-2.952,0-5.688-0.404-8.207-1.221c-2.519-0.813-4.687-2.024-6.501-3.629c-1.814-1.607-3.235-3.608-4.261-6.005
+			c-1.03-2.398-1.541-5.19-1.541-8.38c0-2.583,0.435-5.021,1.307-7.314c0.874-2.29,2.174-4.294,3.905-6.005s3.876-3.067,6.437-4.067
+			c2.56-1.001,5.544-1.501,8.947-1.501c3.295,0,6.044,0.413,8.253,1.239s4.009,1.92,5.402,3.28c1.391,1.362,2.45,2.917,3.165,4.663
+			c0.718,1.744,1.216,3.526,1.499,5.341c0.141,0.885,0.232,1.781,0.274,2.688s0.064,1.792,0.064,2.651H68.47z M80.751,43.19
+			c-1.829,0-3.426,0.216-4.79,0.646c-1.364,0.432-2.524,1.048-3.481,1.85c-0.958,0.806-1.724,1.788-2.301,2.95
+			c-0.577,1.165-1.007,2.469-1.287,3.91h22.667c-0.112-1.35-0.374-2.594-0.781-3.733c-0.411-1.142-1.034-2.13-1.879-2.969
+			c-0.845-0.837-1.929-1.489-3.249-1.954C84.325,43.423,82.692,43.19,80.751,43.19z"/>
+		<path fill="#FFFFFF" d="M107.259,38.687h15.109v6.007h-4.092l10.805,24.926l10.552-24.926h-2.658v-6.007h13.843v6.007h-3.756
+			l-14.31,30.721h-7.765l-14.269-30.721h-3.459V38.687z"/>
+		<path fill="#FFFFFF" d="M164.495,57.607c0,1.026,0.091,1.962,0.274,2.812c0.183,0.852,0.444,1.659,0.781,2.428
+			c1.042,2.327,2.708,4.077,5.001,5.253c2.292,1.177,4.89,1.765,7.789,1.765c2.278,0,4.493-0.264,6.646-0.787
+			c2.153-0.523,4.412-1.344,6.775-2.463l3.165,4.436c-2.87,1.63-5.753,2.84-8.652,3.631c-2.896,0.791-5.907,1.186-9.032,1.186
+			c-2.955,0-5.691-0.404-8.211-1.221c-2.517-0.813-4.684-2.024-6.499-3.629c-1.814-1.607-3.235-3.608-4.263-6.005
+			c-1.028-2.398-1.541-5.19-1.541-8.38c0-2.583,0.436-5.021,1.308-7.314c0.872-2.29,2.174-4.294,3.905-6.005
+			c1.73-1.711,3.875-3.067,6.437-4.067c2.561-1.001,5.544-1.501,8.949-1.501c3.291,0,6.042,0.413,8.251,1.239s4.007,1.92,5.402,3.28
+			c1.394,1.362,2.448,2.917,3.167,4.663c0.716,1.744,1.215,3.526,1.497,5.341c0.141,0.885,0.232,1.781,0.274,2.688
+			c0.044,0.907,0.064,1.792,0.064,2.651H164.495z M176.778,43.19c-1.832,0-3.428,0.216-4.792,0.646
+			c-1.364,0.432-2.525,1.048-3.484,1.85c-0.955,0.806-1.722,1.788-2.299,2.95c-0.577,1.165-1.007,2.469-1.289,3.91h22.669
+			c-0.114-1.35-0.374-2.594-0.781-3.733c-0.409-1.142-1.034-2.13-1.881-2.969c-0.843-0.837-1.927-1.489-3.247-1.954
+			C180.351,43.423,178.717,43.19,176.778,43.19z"/>
+		<path fill="#FFFFFF" d="M206.321,20.533h14.184v48.315h6.583v6.007h-20.767v-6.007h6.333V26.538h-6.333V20.533z"/>
+	</g>
+	<path fill="#FFFFFF" d="M299.867,22l10.523-17H279v15h8v27.445c0,2.884,0.007,5.279-0.693,7.189
+		c-0.701,1.91-1.406,3.438-2.714,4.581c-1.304,1.144-2.843,1.951-4.678,2.421c-1.837,0.469-3.845,0.703-6.079,0.703
+		c-2.157,0-4.114-0.273-5.93-0.822c-1.818-0.548-3.333-1.418-4.658-2.607c-1.327-1.189-1.931-2.724-2.672-4.605
+		C258.839,52.426,259,50.14,259,47.445V20h7V5h-34v15h8v26.459c0,4.792,0.414,9.086,2.158,12.875c1.742,3.791,3.88,7.01,6.889,9.656
+		c3.013,2.646,6.435,4.668,10.488,6.062c4.053,1.393,8.361,2.091,13.021,2.091c4.695,0,9.084-0.706,13.196-2.114
+		c4.106-1.409,7.706-3.461,10.754-6.156c3.051-2.692,5.257-5.992,7.001-9.892c1.74-3.898,2.493-8.356,2.493-13.369V22H299.867z"/>
+	<path fill="#FFFFFF" d="M371.82,17.761c-1.35-2.485-3.223-4.679-5.623-6.58c-2.396-1.904-5.248-3.396-8.559-4.518
+		C354.33,5.544,350.701,5,346.752,5h-32.15l11.547,17H319v40h-6v13h29V62h-4V50h8.752c4.658,0,8.693-1.194,12.104-2.403
+		c3.41-1.213,6.229-3.155,8.459-5.243c2.229-2.087,3.875-4.695,4.938-7.533c1.063-2.839,1.596-5.957,1.596-9.211
+		C373.848,22.911,373.172,20.243,371.82,17.761z M352.17,34.469c-2.264,1.47-5.318,2.531-9.168,2.531H338V20h5.002
+		c4.119,0,7.242-0.346,9.371,1.343c2.125,1.688,3.189,3.586,3.189,6.563C355.563,31.097,354.432,32.994,352.17,34.469z"/>
+</g>
+</svg>
+</a></h1>
+    <p class="site-header-description">Resources for the global digital safety training community.</p>
+</header>
+
+      <nav class="nav-block">
+        <ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/">You, The Trainer</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/be-a-better-trainer/">Be a Better Trainer</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/">First 3 Sessions of Your Event</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/developing-a-shared-brain/">Developing a Shared Brain</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/developing-shared-agreements/">Developing Shared Agreements</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/sharing-your-story/">Sharing Your Story</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/you-the-trainer/golden-rules-of-effective-training/">Golden Rules of Effective Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/how-to-handle-surprises-during-training/">How To Handle Surprises During Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/">Icebreakers, Energizers and Thematic Activities</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/icebreakers/">Icebreakers</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/">Thematic Activities</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/charades/">Charades!</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/digisec-rally/">DigiSec Rally</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/her-story-of-technology/">Her-Story of Technology</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/magic-circle/">Magic Circle</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/spectrogram/">Spectrogram</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/the-cauldron/">The Cauldron</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/witch-coven/">Witch Coven</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/you-the-trainer/roles-and-responsibilities-of-a-digital-security-trainer/">Roles and Responsibilities of a Digital Security Trainer</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/setting-expectations-for-participants-organizers-and-yourself/">Setting Expectations For Participants, Organizers, and Yourself</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/">Trust Building Exercises</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/defenders-bingo/">Defenders Bingo</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/the-rules-of-the-game/">The Rules of the Game</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/tricky-candy/">Tricky Candy</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/who-do-you-trust/">Who Do You Trust?</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/">Before an Event</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/creating-safe-spaces/">Creating Safe Spaces</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/levelups-approach-to-adult-learning/">LevelUp's Approach to Adult Learning</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-event-agenda/">Planning Your Event Agenda</a><ul class="menu"><li><a class="menu-link" href="/before-an-event/planning-your-event-agenda/the-participant-driven-agenda/">The Participant-Driven Agenda</a><ul class="menu"></ul></li></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/">Planning Your Training Event</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/planning-your-training-event/0-go-dontgo-decision/">Step 0 - The Go or Don't Go Decision</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/1-initial-contact-assessing-need/">Step 1 - Initial Contact and Assessing Need</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/2-context-risk-analysis/">Step 2 - Context and Risk Analysis</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/3-analysis-design-considerations/">Step 3 - Analysis and Design Considerations</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/4-communications-content-planning/">Step 4 - Communications and Content Planning</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/5-orientation-preparation/">Step 5 - Orientation and Preparation</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/">Psychosocial Underpinnings of Security Training</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/1-getting-grips-with-fear/">Getting to Grips with Fear</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/2-anxiety-pressure-gauge/">Using the Anxiety Pressure Gauge</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/3-raise-lower-pressure/">Raising and Lowering the Pressure in a Group</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/4-traumatic-stress-reactions/">Stress and Traumatic Stress Reactions in Security Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/5-emotional-resilience/">Building your Own Emotional Resilience as a Security Trainer</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/">Supporting Self-Care</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/supporting-self-care/building-feminist-self-care/">Building Feminist Self-Care</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/look/">Look</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/love-letter-to-myself/">Love Letter to Myself</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/our-reflection/">Our Reflection</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/the-act-of-no/">The Act of NO</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/the-loving-touch/">The Loving Touch</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/using-levelup-trainers-curriculum/">How To: Using the LevelUp Trainers' Curriculum</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/preparing-sessions-using-adids/">How-To: Preparing Sessions Using ADIDS</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/">Trainers' Curriculum</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/assessing-risks-and-solutions/">Assessing Risks and Solutions</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/assessing-risks-and-solutions/security-plans-and-protocols/">Security Plans and Protocols</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/malware-protection/">Malware Protection</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/malware-protection/safer-software-updating/">Safer Software Updating</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/malware-protection/using-antivirus-tools/">Using Antivirus Tools</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/mobile-safety/">Mobile Safety</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/mobile-safety/how-mobile-networks-work/">How Mobile Networks Work</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/protecting-data/">Protecting Data</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/protecting-data/creating-and-managing-strong-passwords/">Creating and Managing Strong Passwords</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/protecting-data/data-backup-basics/">Data Backup Basics</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/protecting-data/protecting-and-encrypting-devices/">Protecting and Encrypting Devices</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/rethinking-security/">Rethinking Security</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/rethinking-security/digital-security-motivations-resistances-and-barriers/">Digital Security: Motivations, Resistances and Barriers</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/">Safer Browsing</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-browsing/anonymity-and-circumvention/">Safer Browsing - Anonymity and Circumvention</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/https-ssl/">Safer Browsing - HTTPS and SSL</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/identity-protection-privacy/">Safer Browsing - Identity Protection and Privacy</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-communication/">Safer Communication</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-communication/pgp-gpg-email-encryption/">Safer Communication: PGP/GPG Email Encryption</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-communication/safer-online-advocacy/">Safer Online Advocacy</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-workspaces/">Safer Workspaces</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-workspaces/tails/">Safer Workspaces - Using Tails</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/social-media-safety/">Social Media Safety</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/social-media-safety/social-media-safety-awareness/">Social Media Safety Awareness</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/after-an-event/">After an Event</a><ul class="menu"> <li><a class="menu-link" href="/after-an-event/how-are-we-evaluating-trainings/">How Are We Evaluating our Trainings?</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/community/">Community</a><ul class="menu"> <li><a class="menu-link" href="/community/code-of-conduct/">Level Up Code of Conduct</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/community-resources-and-tools/">Community Resources and Tools</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/contribute/">Contributing to LevelUp</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/getting-started/">Getting Started with LevelUp</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/partners-and-collaborators/">Partners and Collaborators</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/about/">About LevelUp</a><ul class="menu"></ul></li> </ul></li></ul>
+
+      </nav>
+      <section class="section-block">
+  <ol class="breadcrumb">
+<li><a href="/">Home</a></li>
+
+
+
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/">Trainers' Curriculum</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/safer-communication/">Safer Communication</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/safer-communication/pgp-gpg-email-encryption/">PGP GPG Email Encryption</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+</ol>
+
+  <h1></h1>
+  
+  <p><b>Credits</b> <span class="page-author"> DJ, Carol Waters </span>
+     &ensp; <b>Last Updated</b>  2013-03 </p>
+  <p>In this Deepening session, participants will learn how to use Thunderbird, Enigmail, and GnuPG to create a PGP/GPG key pair, share and upload public keys, authenticate others' keys, send encrypted and signed emails, and decrypt encrypted emails that they receive.</p>
+  
+</section>
+
+
+<section class="section-block">
+  <p><h4>ADIDS Element </h4>Deepening</p>
+  <p><h4>Parent Topic(s) </h4>PGP/GPG Email Encryption</p>
+  <p><h4>Duration </h4>120+ minutes</p>
+</section>
+
+
+<section class="section-block">
+  <h5 id="trainers-note"><em>Trainer’s Note</em></h5>
+<p>This hands-on Deepening session can be quite long and intensive - the suggested duration provided is quite likely the bare minimum amount of time that will be required to complete it thoroughly. Consider taking a break if the session goes long - especially if you’re also installing and configuring a mail account in Thunderbird - and be sure to build in time for questions from participants.</p>
+
+<h1 id="materials-to-prepare">Materials to Prepare</h1>
+<ul>
+  <li>Projector and computer, prepped to walkthrough all installation and practice steps alongside participants</li>
+  <li>Flipchart and whiteboard with markers</li>
+</ul>
+
+<h3 id="prepare-either-of-the-following-combinations-of-thunderbird-gnupg-and-enigmail">Prepare either of the following combinations of Thunderbird, GnuPG, and Enigmail:</h3>
+
+<h4 id="portable-apps-versions-on-usb-if-participants-are-not-using-their-own-devices">Portable Apps versions on USB (if participants are <em>not</em> using their own devices):</h4>
+<ul>
+  <li>Portable Apps version of <a href="http://portableapps.com/apps/internet/thunderbird_portable">Thunderbird</a></li>
+  <li>Portable Apps version of <a href="http://portableapps.com/apps/security/gpg-plugin-portable">GnuPG</a> <em>with</em> the <a href="http://www.enigmail.net/index.php/en/">Enigmail</a> add-on included</li>
+</ul>
+
+<h4 id="downloaded-versions-on-usb-if-participants-are-using-their-own-devices">Downloaded Versions on USB (if participants <em>are</em> using their own devices):</h4>
+<ul>
+  <li><a href="https://www.mozilla.org/en-US/thunderbird/">Thunderbird</a></li>
+  <li><a href="https://www.gnupg.org/">GnuPG</a> <em>with</em> the <a href="http://www.enigmail.net/index.php/en/">Enigmail</a> add-on included</li>
+</ul>
+
+<h5 id="trainers-note-1"><em>Trainer’s Note</em></h5>
+<p>In either case, have the newest versions of these tools downloaded, checked, and available for participants on USB drives. The Portable Apps version of GnuPG is a bit behind the installable version of GnuPG. It is fine to use as of the time of writing - <em>but keep an eye on the Portable Apps version.</em></p>
+
+<h3 id="because-of-differences-in-interfaces-and-usability-across-platforms-included-below-are-individual-deepenings-for-windowslinux-and-osx">Because of differences in interfaces and usability across platforms, included below are individual Deepenings for Windows/Linux and OSX.</h3>
+<p><br /><br /></p>
+
+<h1 id="deepening---windows-and-linux">Deepening - Windows and Linux</h1>
+
+<h2 id="step-1-prepare-tools-as-needed">Step 1: Prepare Tools as Needed</h2>
+<p>Depending on whether you’re using portable apps or installing the necessary apps, make sure participants have what they need, and show them where to access Thunderbird. Budget for the additional time this may take.
+<br /><br /></p>
+
+<h2 id="step-2-register-an-email-account-in-thunderbird">Step 2: Register an Email Account in Thunderbird</h2>
+<p>In order to send and receive emails using PGP/GPG, participants will need to register the email account they would like to use in Thunderbird. Follow the current steps for registering an account in Thunderbird, using either:</p>
+<ul>
+  <li>Thunderbird’s Account Configuration [3]</li>
+  <li>Security-in-a-Box hands-on guide [4]</li>
+</ul>
+
+<p>Once all participants have successfully registered an email account within the Thunderbird client, walkthrough some or all (depending on time) of the various features and securtiy settings in Thunderbird [5] for the group.</p>
+
+<h5 id="participants-should-be-asked-to-wait-until-the-process-is-completed-before-attempting-to-repeat-it-themselves---for-now-ask-them-to-follow-along-as-you-walk-them-through-these-steps">Participants should be asked to wait until the process is completed before attempting to repeat it themselves - for now, ask them to follow along as you walk them through these steps:</h5>
+<p><br /><br /></p>
+
+<h2 id="step-3-setup-for-encryption-keypair-creation">Step 3: Setup for Encryption Keypair Creation</h2>
+<p>Demonstrate for participants how to make a <strong>keypair</strong> – this comprises the unique public and private keys that will be associated with their registered email acccount, and are respectively the equivalents of a lockbox (public key) and the key that opens it (private key).</p>
+
+<h5 id="see-the-romeo-and-juliet---an-encrypted-love-story-activity--discussion-for-reference-if-needed">See the <a href="/curriculum/safer-communication/pgp-gpg-email-encryption/activity-discussion/romeo-and-juliet/">Romeo and Juliet - An Encrypted Love Story</a> Activity &amp; Discussion for reference, if needed.</h5>
+
+<p>Launch Thunderbird, with GnuPG and Enigmail installed on the same computer. Open the Key Management window - in the upper right-hand menu, go to <strong>Enigmail</strong> -&gt; <strong>Key Management</strong>.</p>
+
+<p>From the menu, choose <strong>Generate</strong> -&gt; <strong>New Key Pair</strong>; select an email address for which you’d like to generate the keypair. Make sure participants are using the same email address they’ve registered in Thunderbird for now, and remind them they can add additional email addresses to the same key.</p>
+
+<h3 id="passphrases">Passphrases</h3>
+<p>Users will be asked to create a <strong>passphrase</strong> for this keypair – this passphrase is what helps ensure that only the owner of the key pair’s private key is able to use it to decrypt and sign emails.</p>
+
+<p>You may choose to check the box marked <strong>No Passphrase</strong> in the interest of time - however, this <em>must be acknowledged</em> to the group during the demonstration. Participants will need to set a passphrase for their keys, and they should enter it into their <a href="/curriculum/protecting-data/creating-and-managing-strong-passwords/deepening/using-a-password-manager/">Password Manager</a> - <em>if they forget it, there is no way of recovering it.</em></p>
+
+<h3 id="key-expiration-and-strength">Key Expiration and Strength</h3>
+<p>Expiration for keys are set as a <strong>failsafe</strong> safety feature; users can change the <strong>expiration date</strong> of their keys, setting them to expire at a later date or <em>never</em>, and set reminders to extend the expiration date as needed. Setting an expiration date is a good feature to have enabled, in case you lose your key revocation certificate.</p>
+
+<p>Before generating your keypair, go to the <strong>Advanced</strong> tab and point out that the key pair is set at the current recommended minimum encryption strengeth of <strong>2048 RSA</strong>. Participants can also choose to make a “stronger” key of <strong>4096 RSA</strong> which adds a very small amount of time during key generation, and regular decryption and encryption.
+<br /><br /></p>
+
+<h2 id="step-4-generating-an-encryption-key-pair">Step 4: Generating an Encryption Key Pair</h2>
+<p>Now, you can click <strong>Generate Key</strong>. This process can take several minutes - during that time, and before the trainer asks participants to try this on their own, two points can be made:</p>
+<ul>
+  <li>You can use the same key for more than one email address.</li>
+  <li>Everyone should protect their key with a (preferably encrypted) backup.</li>
+</ul>
+
+<h5 id="for-the-first-point">For the first point</h5>
+<p>…explain that even though this key pair was seemingly created specifically for one email address, it is in fact possible to go back and add additional email addresses (or <em>identities</em>) to this key pair once it has been created.</p>
+
+<h5 id="for-the-second-point">For the second point</h5>
+<p>…explain that backing up is important as email encrypted to them using their public key is impossible to decrypt without its associated private key - therefore, protecting these is crucial!
+<br /><br /></p>
+
+<h3 id="creating-a-revocation-certificate">Creating a Revocation Certificate</h3>
+<p>Now that your key pair has been created, click <strong>Generate Revocation Certificate</strong> on the next screen and save this to the desktop.</p>
+
+<p>Explain that the revocation key is an “emergency” tool that is used to invalidate your public key, in the event that its private key is lost or stolen. <em>Just like the private key, the revocation key needs to be protected</em>. Remember to help participants identify <em>where</em> their private key and revocation certficare are currently stored on their device.
+<br /><br /></p>
+
+<h2 id="step-5-participants-repeat-the-process">Step 5: Participants Repeat the Process</h2>
+
+<h5 id="at-this-point-every-participant-should-to-be-asked-to-repeat-the-above-steps-themselves-to-get-a-feel-for-the-process">At this point, every participant should to be asked to repeat the above steps themselves to get a feel for the process.</h5>
+<p>To reinforce the steps of creating a keypair and sending it to someone, the trainer may wish to ask for a volunteer to try the process in front of the class (with helpful coaching from classmates), <em>or</em> you can demonstrate from the front of the classroom again while participants simultaneously follow along. Be sure to budget extra time for this session if participants need more 1:1 assistance.</p>
+
+<h5 id="congratulations">Congratulations!</h5>
+<p>Once everyone has generated a passphrase-protected key pair and a revocation certificate, congratulate the participants for having accomplished the most difficult part of the exercise!
+<br /><br /></p>
+
+<h5 id="trainers-note-2"><em>Trainer’s Note</em></h5>
+<p>At this point, you may want to consider stopping the session for a break, with possibly an activity or energizer to follow. Get a sense of how participants are feeling at this point, taking your decision from there - if the group seems excited and eager to advance, definitely take advantage of this momentum!
+<br /><br /></p>
+
+<h2 id="step-6-share-your-public-key">Step 6: Share Your Public Key</h2>
+<p>At this stage, participants may now send one another their public keys – <em>ONLY their public keys</em>. The private key must <strong>never</strong> be shared or emailed. Alternatively, if the trainer has created a mailing list for the training event, public keys can be sent to that address to reach everyone at once.</p>
+
+<h3 id="sharing-keys-by-hand">Sharing Keys By Hand</h3>
+<p>In Thunderbird, launch the Key Management window - highlight the email address for which a new key pair was generated in the previous steps. Right-click the address and select <strong>Export Keys to File</strong>, making sure to select <strong>Export Public Keys Only</strong> - then, export to a USB flash drive or other external drive for sharing.</p>
+
+<p>You may wish to point out that an in-person exchange of keys is the most secure method because both parties have control of their keys and can plainly see each other. However, that is not always possible.</p>
+
+<h3 id="sharing-keys-by-email">Sharing Keys by Email</h3>
+<p>Follow the same steps as above for Sharing Keys by Hand, except instead of selecting <strong>Export Keys to File</strong> -&gt; <strong>Send Public Keys by Email</strong>.</p>
+
+<p>Fill in the “To:” address field of your email and then hit Send; for the purpose of the exercise, you can either send your key to yourself, or send it to the group’s mailing list for participants to access, if one has been created. Once you’re done, have participants repeat the process.</p>
+
+<p>At this point, explain that these are just two ways for users to share their public keys - mention that public keys can be pasted into the text of an email, or shared via an array of trusted public keyservers (public “directories” into which users upload their public keys for other users to locate and download).
+<br /><br /></p>
+
+<h2 id="step-7-import-a-public-key">Step 7: Import a Public Key</h2>
+<p>This last exercise will have participants add each others’ public keys to their “library” of other users’ keys - this is also known as a <strong>keyring</strong> or <strong>keychain</strong>. Demonstrate this step first before having participants replicate it, and remind the group not to accidentally share their private keys!</p>
+
+<h3 id="import-a-public-key-by-hand">Import a Public Key by Hand</h3>
+<p>In Thunderbird, launch the Key Management window; then, receive a USB flash drive with a participant’s public key on it. Within Key Management, choose <strong>File</strong> -&gt; <strong>Import Keys from File</strong>.</p>
+
+<p>A pop-up window will ask the user to point to the public key(s) that are to be imported - select the public key file saved on the USB flash drive.</p>
+
+<h3 id="import-a-public-key-by-email">Import a Public Key by Email</h3>
+<p>In Thunderbird, launch the Key Management window; find an email sent by someone wanting to share their public key, and save that key file somewhere easy to find in the demonstration, such as the Desktop.</p>
+
+<p>Within Key Management, choose <strong>File</strong> -&gt; <strong>Import Keys from File</strong>. A pop-up window will ask the user to point to the public key(s) that were downloaded - select the public key file saved on the Desktop.</p>
+
+<p>Ask participants to repeat the sharing and importing process, until everyone in the group has received everyone else’s public key.
+<br /><br /></p>
+
+<h2 id="step-8-validate-and-sign-a-public-key">Step 8: Validate and Sign a Public Key</h2>
+<p>This exercise emphasizes the importance of confirming the <em>authenticity</em> of public keys. Trainers can refer to Security-in-a-Box’s <a href="https://securityinabox.org/en/guide/thunderbird/windows">How to Use Enigmail with GnuPG in Thunderbird</a> hand-on guide, and follow the steps described there.</p>
+
+<p>First, using your own key, demonstrate an example with another particpant; then ask participants to replicate that demonstration <em>one other participant</em> to whom they will send a signed and encrypted email during this session. This is in order to save time during this already time intensive, hands-on deepening session.</p>
+
+<p>Don’t forget to explain the difference between a traditional (public) signature of a public key versus a “local signature” of someone’s key, and the trade-offs of each option:</p>
+
+<h3 id="public-signatures">Public Signatures</h3>
+<p>PGP relies on a concept called a <strong>Web of Trust</strong>. This means that when looking for someone’s key online, you can see whom else has signed their key as well as the date it was signed.</p>
+
+<p>While this can help users to make a decision as to whether or not to that key is “trustworthy” before they download it, it also reveals <em>who else</em> is authenticating that key as truly belonging to the person indicated as the owner.</p>
+
+<h5 id="it-also-tells-you-who-knows-this-person-as-well-as-the-date-they-signed-their-key">It also tells you who knows this person, as well as the date they signed their key.</h5>
+
+<h3 id="local-signatures">Local Signatures</h3>
+<p>Because public signatures are visible for keys shared online or downloaded, this can raise some issues. If people are signing someone’s key publicly, it reveals a certain amount of information about them based on who they know, and the date they signed a given key.</p>
+
+<h5 id="we-generally-recommend-that-high-risk-participants-at-a-training-do-local-signatures-of-each-others-keys-and-that-they-consider-whose-signatures-theyre-comfortable-having-publicly-visible-on-their-own-keys">We generally recommend that high-risk participants at a training do local signatures of each others’ keys, and that they consider whose signatures they’re comfortable having publicly visible on their own keys.</h5>
+<p><br /><br /></p>
+
+<h2 id="step-9-use-your-keys">Step 9: Use Your Keys!</h2>
+<p>If the previous exercises have been completed and you’ve confirmed that each step has been followed, participants can send test messages, either to the trainer or to a partner in the group.</p>
+
+<p>As before, you should first demonstrate the process. Explain the difference between signing and encrypting, and explain the features and use cases for each option. Demonstrate and then have participants try the following:</p>
+<ul>
+  <li>Composing an email.</li>
+  <li>Selecting a recipient whose key has already been imported.</li>
+  <li>Choosing the OpenPGP button on that email.</li>
+  <li>Selecting “Sign Message.”</li>
+  <li>Selecting “Encrypt Message.”</li>
+  <li>Sending the message.</li>
+</ul>
+
+<p>After some time, ask the participants to stop for a moment to report whether they have succeeded. It is likely that some participants will find that they have sent or received email that was not encrypted.</p>
+
+<p>If so, the trainer should now review these key messages. If time allows, the trainer can demonstrate the process of creating a per-recipient rule.
+<br /><br /></p>
+
+<h2 id="step-10-uploading-public-keys">Step 10: Uploading Public Keys</h2>
+<p>Now that participants have created their key pair, they need to upload them to a public keyserver so others can find and use their public keys. Explain that keyservers are designed to sync with one another on a regular basis, so you don’t need to upload your key to every keyserver available online.</p>
+
+<h3 id="uploading-to-keyservers">Uploading to Keyservers</h3>
+<p>Within Key Management, select your key from the list of keys; the follow <strong>Keyserver</strong> -&gt; <strong>Upload Public Keys</strong>.</p>
+
+<p>A pop-up will allow you to confirm that you are uploading your <strong>public key</strong>, as opposed to your private key, which should <em>not</em> be uploaded, to a selected server (if you want to upload to a particular server).</p>
+
+<p>If you are training a mixed group of participants using OSX and Windows or Linux, have them upload their key to <a href="https://sks-keyservers.net/">pool.sks-keyservers.net</a>, since this is the only keyserver shared in the defaults of <em>both</em> Enigmail and OSX GPGKeychain Access.
+<br /><br /></p>
+
+<h2 id="step-11-final-wrap-up-and-points">Step 11: Final Wrap-Up and Points</h2>
+
+<h5 id="important-point-these-applications-thunderbird-enigmail-and-gnupg-will-not-encrypt-email-by-default-unless-directed-to-do-so">Important Point: These applications (Thunderbird, Enigmail and GnuPG) will not encrypt email by default unless directed to do so.</h5>
+
+<h3 id="default-encryption">Default Encryption</h3>
+<p>You can encrypt all email from an address by default, by viewing that address’s settings in Thunderbird, selecting <strong>OpenPGP Security</strong>, and then checking the box to <strong>Encrypt Messages By Default</strong>. However, your email will not be encrypted unless you have the public key of your recipient. Enigmail will ask you to supply it.</p>
+
+<h3 id="per-recipient-rules">Per-Recipient Rules</h3>
+<p>You can also encrypt email to a specific person’s address by default by creating a <strong>per-recipient rule</strong>. To get started, open an email from the person for whom you want to create the rule, right click their address in the From field and select <strong>Create OpenPGP Rule from Address…</strong></p>
+
+<h3 id="full-disk-encryption">Full-Disk Encryption</h3>
+<p>Participants should only store and use PGP/GPG keys on devices they can enable full-disk encryption for; otherwise, their key can be physically accessed by others.</p>
+
+<h3 id="attachments">Attachments</h3>
+<p>Remind participants that the <strong>titles</strong> of any attachments they send are visible when they send an encrypted email using <em>Inline PGP</em>. If they don’t want the name of an attachment to be seen by anyone but the recipient, they can either <strong>change the name of the attachment</strong> into something innocuous, or <strong>use MIME/PGP</strong> keeping in mind that it currently works reliably with Mail on OSX, and with Thunderbird &amp; Enigmail on Windows, OSX, and Linux.
+<br /><br /></p>
+
+<h1 id="deepening---osx">Deepening - OSX</h1>
+
+<h3 id="osx-users-will-download-the-gpg-tools-suite-which-includes">OSX users will download the <a href="">GPG Tools Suite</a> which includes…</h3>
+<ul>
+  <li>MacGPG (GnuPG for OSX)</li>
+  <li>GPG Services (a plug-in for using GPG for apps in OSX)</li>
+  <li>GPG Keychain</li>
+  <li>GPG for Mail.app.</li>
+</ul>
+
+<p>OSX users can choose to use <strong>Mail.app</strong> or <strong>Thunderbird and Enigmail</strong> for OSX.
+<br /><br /></p>
+
+<h2 id="step-1-registering-an-email-account-and-creating-a-keypair">Step 1: Registering an Email Account and Creating a Keypair</h2>
+<p>If participants choose to use Thunderbird for the first time, use the same steps as the above <a href="/curriculum/safer-communication/pgp-gpg-email-encryption/deepening/thunderbird-and-gpg/thunderbird-and-gpg/#Step-1-Prepare-Tools-as-Needed/">Deepening for Windows and Linux</a>. If they already have an account in Mail, they can move to the next step.</p>
+
+<ul>
+  <li>To add a new account to Mail, open it up and follow the instructions. If you need further help, <a href="https://www2.suresupport.com/faq.php/103/634">go here</a> for screenshots.</li>
+</ul>
+
+<h3 id="to-create-a-keypair">To Create a Keypair…</h3>
+<p>Participants can do this in Enigmail, but to get them familiar with the GPG Keychain (which has a much nicer interface), we recommend <a href="http://support.gpgtools.org/kb/how-to/first-steps-where-do-i-start-where-do-i-begin">following these steps</a> to generate a keypair.
+<br /><br /></p>
+
+<h2 id="step-2-sharing-your-key">Step 2: Sharing Your Key</h2>
+
+<h3 id="to-share-via-email-in-thunderbird-the-steps-are-the-same-as-for-windows-and-linux-users">To share via email in Thunderbird, the steps are the same as for Windows and Linux users.</h3>
+<p>Similar to Enigmail and Thunderbird in Windows and Linux, select the key and either right-click and select <strong>Export…</strong> or select the key and select <strong>File &gt; Export</strong> in the menu. The typical Finder window pops up with the short key ID as the file title, and ASCII as the default format option (in addition to Binary).</p>
+
+<p>Under this, you’ll see a box that says <strong>Allow secret key export</strong> which is <em>not</em> checked by default. Mention to users that the only time they would select this is if they were backing up their key in an encrypted drive. Participants can then save the file to a USB and <a href="/curriculum/safer-communication/pgp-gpg-email-encryption/deepening/thunderbird-and-gpg/thunderbird-and-gpg/#Step-1-Prepare-Tools-as-Needed/">follow the steps above</a>.
+<br /><br /></p>
+
+<h2 id="step-3-importing-a-public-key">Step 3: Importing a Public Key</h2>
+<p>Similar to Enigmail and Thunderbird in Windows and Linux, go to <strong>File &gt; Import</strong> and select the key you want to import your desktop or external drive - a USB in this case.</p>
+
+<h3 id="to-import-from-an-email-attachment-in-thunderbird">To import from an email attachment in Thunderbird…</h3>
+<p>Choose <strong>Save</strong> next to the attachment in the decrypted email, and save it to the desktop, or elsewhere as preferred. Then, go to <strong>File</strong> -&gt; <strong>Import</strong> in GPGTools.</p>
+
+<h3 id="to-import-from-an-email-attachment-in-mail">To import from an email attachment in Mail…</h3>
+<p>Choose either <strong>File &gt; Save Attachments</strong> in the menu, or right-click on the attached public key and choose <strong>Save Attachment</strong>.
+<br /><br /></p>
+
+<h2 id="step-4-validating-and-signing-keys">Step 4: Validating and Signing Keys</h2>
+<p>To see the fingerprint of a key, either click on the <strong>Info</strong> button at the top of the GPG Keychain window, or right-click and choose <strong>Info</strong>. Walk participants through the various pieces of information in here, including the key fingerprint under the <strong>Key</strong> tab.</p>
+
+<h3 id="to-sign-a-key">To Sign a Key…</h3>
+<p>Right-click on the key in the GPG Keychain window, or select <strong>Key</strong> -&gt; <strong>Sign</strong> in the menu. Then follow the directions from the <a href="/curriculum/safer-communication/pgp-gpg-email-encryption/deepening/thunderbird-and-gpg/thunderbird-and-gpg/#Step-1-Prepare-Tools-as-Needed/">Windows and Linux Deepening</a> section above about signing, setting an expiration date, and the tradeoffs between local and public key signatures.</p>
+
+<h5 id="tell-participants-that-you-will-not-be-able-to-send-mail-in-either-thunderbird-or-mail-if-keys-are-not-signed">Tell participants that you will not be able to send mail in either Thunderbird or Mail if keys are not signed!</h5>
+<p><br /><br /></p>
+
+<h2 id="step-5-use-it">Step 5: Use it!</h2>
+<p>Sending signed and encrypted emails in Thunderbird is the same as the directions for <a href="">Windows and Linux</a> above.</p>
+
+<h3 id="to-send-signed-and-encrypted-emails-in-mail">To send signed and encrypted emails in Mail…</h3>
+<p>Describe the GPG options in a new message. In the top right corner of a new message, there will be two options: <strong>OpenGPG</strong> and <strong>S/MIME</strong>. Describe the differences between these, and suggest that they use OpenGPG unless they are communicating with someone they know uses S/MIME only, since many mail clients have issues with S/MIME emails.</p>
+
+<p>Under the <strong>Subject line</strong>, participants will see a small unlocked lock and a certificate symbol with a checkmark in it:</p>
+<ul>
+  <li>Click on the lock to send an <em>encrypted</em> email.</li>
+  <li>Click on the “cert” icon to send a <em>signed</em> email.
+<br /><br /></li>
+</ul>
+
+<h2 id="step-6-uploading-your-public-key">Step 6: Uploading Your Public Key</h2>
+<p>To upload participants’ public keys, have them either either right-click on their key and choose <strong>Send Public Key to Keyserver</strong> or select <strong>Key</strong> -&gt; <strong>Send Public Key to Keyserver</strong> in the menu.</p>
+
+<p>If you are having participants practice locating each others’ keys in keyservers, have participants take this step <em>before</em> uploading participants’ public keys to a Keyserver. Go to <strong>Preferences</strong>, and select <a href="https://sks-keyservers.net/">pool.sks-keyservers.net</a> as the top keyserver - this is the only default keyserver shared between Enigmail and OpenGPG Keychain.
+<br /><br /></p>
+
+</section>
+
+    </div>
+    
+
+<footer class="site-footer">
+<div>
+  <p><a class="site-footer-link" href="/community/about">About LevelUp</a></p>
+  <p><a class="site-footer-link" href="/news">News &amp; Updates</a></p>
+  <p><a class="site-footer-link" href="/license">CC-BY-SA 3.0 License</a></p>
+  <p><img src="https://img.shields.io/github/last-commit/levelupcc/level-up/gh-pages.svg" /> </p>
+</div>
+<div>
+  <p><a class="site-footer-link" href="/community/contribute/#how-can-i-provide-feedback">Contact</a></p>
+  <p><a class="site-footer-link" href="/community/contribute/#how-can-i-contribute-content">Contribute</a></p>
+  <p><a class="site-footer-link" href="/community/contribute/#annotate-and-discuss-content-with-hypothesis">Annotate with Hypothes.is</a></p>
+  <p><a class="site-footer-link" href="https://github.com/levelupcc/level-up" target="_blank">GitHub</a></p>
+</div>
+<div>
+  <p><a class="site-footer-link" href="/site-map">Site Map</a></p>
+</div>
+</footer>
+
+
+<!-- Matomo Image Tracker-->
+<img src="https://analytics.level-up.cc/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo -->
+
+  </div>
+  <script>
+    anchors.options.visible = "always";
+    anchors.add("h2");
+  </script>
+</body>
+
+</html>
