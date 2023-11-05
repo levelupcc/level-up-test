@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <title>Deepening: Learning How to Backup Your Data</title>
+  <meta name="description" content="Resources for the global digital safety training community.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://level-up.tin.fyi/curriculum/protecting-data/data-backup-basics/deepening/learning-how-to-backup-your-data/">
+  <link rel="alternate" type="application/rss+xml" title="LevelUp" href="https://level-up.tin.fyi/feed.xml">
+  <!-- <script
+type="text/javascript">window.liveSettings={api_key:"9fa8aae90c864b609e215c01848beab0"}</script>
+  <script type="text/javascript" src="//cdn.transifex.com/live.js"></script> -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.0/anchor.min.js"></script>
+  <script async defer src="https://hypothes.is/embed.js"></script>
+  <script async defer src="/assets/js/main.js"></script>
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.level-up.cc/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+
+<body class="txlive">
+  <div class="outer-wrapper">
+    <div class="inner-wrapper">
+      <header class="site-header">
+  <h1 class="site-header-title"><a class="site-header-link" href="/"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="header-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="320px" height="20.143px" viewBox="0 0 377 77.143" enable-background="new 0 0 377 77.143" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M8.153,21.929H28.92v6.04h-6.416v40.88H44.58c0.45,0,0.901-0.085,1.35-0.26
+			c0.448-0.174,0.859-0.4,1.226-0.681c0.365-0.278,0.659-0.598,0.886-0.961c0.225-0.359,0.337-0.728,0.337-1.099v-6.667h8.021
+			v15.674H8.153v-6.007h6.08v-40.88h-6.08V21.929z"/>
+		<path fill="#FFFFFF" d="M68.47,57.607c0,1.026,0.092,1.962,0.274,2.812c0.183,0.852,0.442,1.659,0.78,2.428
+			c1.042,2.327,2.708,4.077,5.002,5.253c2.294,1.177,4.89,1.765,7.789,1.765c2.279,0,4.492-0.264,6.647-0.787
+			c2.151-0.523,4.41-1.344,6.773-2.463L98.9,71.05c-2.87,1.63-5.751,2.84-8.65,3.631c-2.899,0.791-5.91,1.186-9.037,1.186
+			c-2.952,0-5.688-0.404-8.207-1.221c-2.519-0.813-4.687-2.024-6.501-3.629c-1.814-1.607-3.235-3.608-4.261-6.005
+			c-1.03-2.398-1.541-5.19-1.541-8.38c0-2.583,0.435-5.021,1.307-7.314c0.874-2.29,2.174-4.294,3.905-6.005s3.876-3.067,6.437-4.067
+			c2.56-1.001,5.544-1.501,8.947-1.501c3.295,0,6.044,0.413,8.253,1.239s4.009,1.92,5.402,3.28c1.391,1.362,2.45,2.917,3.165,4.663
+			c0.718,1.744,1.216,3.526,1.499,5.341c0.141,0.885,0.232,1.781,0.274,2.688s0.064,1.792,0.064,2.651H68.47z M80.751,43.19
+			c-1.829,0-3.426,0.216-4.79,0.646c-1.364,0.432-2.524,1.048-3.481,1.85c-0.958,0.806-1.724,1.788-2.301,2.95
+			c-0.577,1.165-1.007,2.469-1.287,3.91h22.667c-0.112-1.35-0.374-2.594-0.781-3.733c-0.411-1.142-1.034-2.13-1.879-2.969
+			c-0.845-0.837-1.929-1.489-3.249-1.954C84.325,43.423,82.692,43.19,80.751,43.19z"/>
+		<path fill="#FFFFFF" d="M107.259,38.687h15.109v6.007h-4.092l10.805,24.926l10.552-24.926h-2.658v-6.007h13.843v6.007h-3.756
+			l-14.31,30.721h-7.765l-14.269-30.721h-3.459V38.687z"/>
+		<path fill="#FFFFFF" d="M164.495,57.607c0,1.026,0.091,1.962,0.274,2.812c0.183,0.852,0.444,1.659,0.781,2.428
+			c1.042,2.327,2.708,4.077,5.001,5.253c2.292,1.177,4.89,1.765,7.789,1.765c2.278,0,4.493-0.264,6.646-0.787
+			c2.153-0.523,4.412-1.344,6.775-2.463l3.165,4.436c-2.87,1.63-5.753,2.84-8.652,3.631c-2.896,0.791-5.907,1.186-9.032,1.186
+			c-2.955,0-5.691-0.404-8.211-1.221c-2.517-0.813-4.684-2.024-6.499-3.629c-1.814-1.607-3.235-3.608-4.263-6.005
+			c-1.028-2.398-1.541-5.19-1.541-8.38c0-2.583,0.436-5.021,1.308-7.314c0.872-2.29,2.174-4.294,3.905-6.005
+			c1.73-1.711,3.875-3.067,6.437-4.067c2.561-1.001,5.544-1.501,8.949-1.501c3.291,0,6.042,0.413,8.251,1.239s4.007,1.92,5.402,3.28
+			c1.394,1.362,2.448,2.917,3.167,4.663c0.716,1.744,1.215,3.526,1.497,5.341c0.141,0.885,0.232,1.781,0.274,2.688
+			c0.044,0.907,0.064,1.792,0.064,2.651H164.495z M176.778,43.19c-1.832,0-3.428,0.216-4.792,0.646
+			c-1.364,0.432-2.525,1.048-3.484,1.85c-0.955,0.806-1.722,1.788-2.299,2.95c-0.577,1.165-1.007,2.469-1.289,3.91h22.669
+			c-0.114-1.35-0.374-2.594-0.781-3.733c-0.409-1.142-1.034-2.13-1.881-2.969c-0.843-0.837-1.927-1.489-3.247-1.954
+			C180.351,43.423,178.717,43.19,176.778,43.19z"/>
+		<path fill="#FFFFFF" d="M206.321,20.533h14.184v48.315h6.583v6.007h-20.767v-6.007h6.333V26.538h-6.333V20.533z"/>
+	</g>
+	<path fill="#FFFFFF" d="M299.867,22l10.523-17H279v15h8v27.445c0,2.884,0.007,5.279-0.693,7.189
+		c-0.701,1.91-1.406,3.438-2.714,4.581c-1.304,1.144-2.843,1.951-4.678,2.421c-1.837,0.469-3.845,0.703-6.079,0.703
+		c-2.157,0-4.114-0.273-5.93-0.822c-1.818-0.548-3.333-1.418-4.658-2.607c-1.327-1.189-1.931-2.724-2.672-4.605
+		C258.839,52.426,259,50.14,259,47.445V20h7V5h-34v15h8v26.459c0,4.792,0.414,9.086,2.158,12.875c1.742,3.791,3.88,7.01,6.889,9.656
+		c3.013,2.646,6.435,4.668,10.488,6.062c4.053,1.393,8.361,2.091,13.021,2.091c4.695,0,9.084-0.706,13.196-2.114
+		c4.106-1.409,7.706-3.461,10.754-6.156c3.051-2.692,5.257-5.992,7.001-9.892c1.74-3.898,2.493-8.356,2.493-13.369V22H299.867z"/>
+	<path fill="#FFFFFF" d="M371.82,17.761c-1.35-2.485-3.223-4.679-5.623-6.58c-2.396-1.904-5.248-3.396-8.559-4.518
+		C354.33,5.544,350.701,5,346.752,5h-32.15l11.547,17H319v40h-6v13h29V62h-4V50h8.752c4.658,0,8.693-1.194,12.104-2.403
+		c3.41-1.213,6.229-3.155,8.459-5.243c2.229-2.087,3.875-4.695,4.938-7.533c1.063-2.839,1.596-5.957,1.596-9.211
+		C373.848,22.911,373.172,20.243,371.82,17.761z M352.17,34.469c-2.264,1.47-5.318,2.531-9.168,2.531H338V20h5.002
+		c4.119,0,7.242-0.346,9.371,1.343c2.125,1.688,3.189,3.586,3.189,6.563C355.563,31.097,354.432,32.994,352.17,34.469z"/>
+</g>
+</svg>
+</a></h1>
+    <p class="site-header-description">DEVELOPERS! DEVELOPERS! DEVELOPERS!</p>
+</header>
+
+      <nav class="nav-block">
+        <ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/">You, The Trainer</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/be-a-better-trainer/">Be a Better Trainer</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/">First 3 Sessions of Your Event</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/developing-a-shared-brain/">Developing a Shared Brain</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/developing-shared-agreements/">Developing Shared Agreements</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/first-3-sessions-of-your-event/sharing-your-story/">Sharing Your Story</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/you-the-trainer/golden-rules-of-effective-training/">Golden Rules of Effective Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/how-to-handle-surprises-during-training/">How To Handle Surprises During Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/">Icebreakers, Energizers and Thematic Activities</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/icebreakers/">Icebreakers</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/">Thematic Activities</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/charades/">Charades!</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/digisec-rally/">DigiSec Rally</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/her-story-of-technology/">Her-Story of Technology</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/magic-circle/">Magic Circle</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/spectrogram/">Spectrogram</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/the-cauldron/">The Cauldron</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/ice-breakers-and-energizers/thematic-activities/witch-coven/">Witch Coven</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/you-the-trainer/roles-and-responsibilities-of-a-digital-security-trainer/">Roles and Responsibilities of a Digital Security Trainer</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/setting-expectations-for-participants-organizers-and-yourself/">Setting Expectations For Participants, Organizers, and Yourself</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/">Trust Building Exercises</a><ul class="menu"> <li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/defenders-bingo/">Defenders Bingo</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/the-rules-of-the-game/">The Rules of the Game</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/tricky-candy/">Tricky Candy</a><ul class="menu"></ul></li><li><a class="menu-link" href="/you-the-trainer/trust-building-exercises/who-do-you-trust/">Who Do You Trust?</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/">Before an Event</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/creating-safe-spaces/">Creating Safe Spaces</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/levelups-approach-to-adult-learning/">LevelUp's Approach to Adult Learning</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-event-agenda/">Planning Your Event Agenda</a><ul class="menu"><li><a class="menu-link" href="/before-an-event/planning-your-event-agenda/the-participant-driven-agenda/">The Participant-Driven Agenda</a><ul class="menu"></ul></li></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/">Planning Your Training Event</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/planning-your-training-event/0-go-dontgo-decision/">Step 0 - The Go or Don't Go Decision</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/1-initial-contact-assessing-need/">Step 1 - Initial Contact and Assessing Need</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/2-context-risk-analysis/">Step 2 - Context and Risk Analysis</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/3-analysis-design-considerations/">Step 3 - Analysis and Design Considerations</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/4-communications-content-planning/">Step 4 - Communications and Content Planning</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/planning-your-training-event/5-orientation-preparation/">Step 5 - Orientation and Preparation</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/">Psychosocial Underpinnings of Security Training</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/1-getting-grips-with-fear/">Getting to Grips with Fear</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/2-anxiety-pressure-gauge/">Using the Anxiety Pressure Gauge</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/3-raise-lower-pressure/">Raising and Lowering the Pressure in a Group</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/4-traumatic-stress-reactions/">Stress and Traumatic Stress Reactions in Security Training</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/psychosocial-underpinnings-of-security-training/5-emotional-resilience/">Building your Own Emotional Resilience as a Security Trainer</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/">Supporting Self-Care</a><ul class="menu"> <li><a class="menu-link" href="/before-an-event/supporting-self-care/building-feminist-self-care/">Building Feminist Self-Care</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/look/">Look</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/love-letter-to-myself/">Love Letter to Myself</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/our-reflection/">Our Reflection</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/the-act-of-no/">The Act of NO</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/supporting-self-care/the-loving-touch/">The Loving Touch</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/before-an-event/using-levelup-trainers-curriculum/">How To: Using the LevelUp Trainers' Curriculum</a><ul class="menu"></ul></li><li><a class="menu-link" href="/before-an-event/preparing-sessions-using-adids/">How-To: Preparing Sessions Using ADIDS</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/">Trainers' Curriculum</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/assessing-risks-and-solutions/">Assessing Risks and Solutions</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/assessing-risks-and-solutions/security-plans-and-protocols/">Security Plans and Protocols</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/malware-protection/">Malware Protection</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/malware-protection/safer-software-updating/">Safer Software Updating</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/malware-protection/using-antivirus-tools/">Using Antivirus Tools</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/mobile-safety/">Mobile Safety</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/mobile-safety/how-mobile-networks-work/">How Mobile Networks Work</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/protecting-data/">Protecting Data</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/protecting-data/creating-and-managing-strong-passwords/">Creating and Managing Strong Passwords</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/protecting-data/data-backup-basics/">Data Backup Basics</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/protecting-data/protecting-and-encrypting-devices/">Protecting and Encrypting Devices</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/rethinking-security/">Rethinking Security</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/rethinking-security/digital-security-motivations-resistances-and-barriers/">Digital Security: Motivations, Resistances and Barriers</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/">Safer Browsing</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-browsing/anonymity-and-circumvention/">Safer Browsing - Anonymity and Circumvention</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/https-ssl/">Safer Browsing - HTTPS and SSL</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-browsing/identity-protection-privacy/">Safer Browsing - Identity Protection and Privacy</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-communication/">Safer Communication</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-communication/pgp-gpg-email-encryption/">Safer Communication: PGP/GPG Email Encryption</a><ul class="menu"></ul></li><li><a class="menu-link" href="/curriculum/safer-communication/safer-online-advocacy/">Safer Online Advocacy</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/safer-workspaces/">Safer Workspaces</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/safer-workspaces/tails/">Safer Workspaces - Using Tails</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/curriculum/social-media-safety/">Social Media Safety</a><ul class="menu"> <li><a class="menu-link" href="/curriculum/social-media-safety/social-media-safety-awareness/">Social Media Safety Awareness</a><ul class="menu"></ul></li> </ul></li> </ul></li><li><a class="menu-link" href="/after-an-event/">After an Event</a><ul class="menu"> <li><a class="menu-link" href="/after-an-event/how-are-we-evaluating-trainings/">How Are We Evaluating our Trainings?</a><ul class="menu"></ul></li> </ul></li><li><a class="menu-link" href="/community/">Community</a><ul class="menu"> <li><a class="menu-link" href="/community/code-of-conduct/">Level Up Code of Conduct</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/community-resources-and-tools/">Community Resources and Tools</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/contribute/">Contributing to LevelUp</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/getting-started/">Getting Started with LevelUp</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/partners-and-collaborators/">Partners and Collaborators</a><ul class="menu"></ul></li><li><a class="menu-link" href="/community/about/">About LevelUp</a><ul class="menu"></ul></li> </ul></li></ul>
+
+      </nav>
+      <section class="section-block">
+  <ol class="breadcrumb">
+<li><a href="/">Home</a></li>
+
+
+
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/">Trainers' Curriculum</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/protecting-data/">Protecting Data</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li >
+                
+                <a href="/curriculum/protecting-data/data-backup-basics/">Data Backup Basics</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        
+            <li class="active">
+                
+                <a href="/curriculum/protecting-data/data-backup-basics/deepening/learning-how-to-backup-your-data/">Learning How to Backup Your Data</a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+</ol>
+
+  <h1>Deepening: Learning How to Backup Your Data</h1>
+  
+</section>
+
+
+<section class="section-block">
+  <p><h4>ADIDS Element </h4>Deepening</p>
+  <p><h4>Parent Topic(s) </h4>Data Backup Basics</p>
+  <p><h4>Duration </h4>60-90 minutes</p>
+</section>
+
+
+<section class="section-block">
+  <h5 id="trainers-note"><em>Trainer’s Note</em></h5>
+<p>You may only have time for either a <strong>hands-on for tools</strong> <em>or</em> a <strong>hands-on for designing a policy</strong> session; otherwise, you may have time to go over each briefly. If you only have time to focus on either the tool(s) <em>or</em> the policy creation, make sure to provide participants with a basic introduction to the other element and give them resources to take home and digest on their own time. Walkthrough instructions for either of these options are provided within this Deepening session.</p>
+
+<h1 id="materials-to-prepare">Materials to Prepare</h1>
+<ul>
+  <li>Projector and laptop, with the chosen backup tool ready to demonstrate</li>
+  <li>USB drives with software (portable apps or relevant OSX apps) pre-downloaded for participants</li>
+</ul>
+
+<h2 id="optional">Optional</h2>
+<p>Pre-printed Backup Policy Form (<a href="/assets/files/backup_policy-blank.pdf">found here</a>) if covering policy creation during the session
+<br /><br /></p>
+
+<h3 id="selecting-a-backup-tool">Selecting a Backup Tool</h3>
+<p>There are a number of tools which can be used for backups. Choose a tool (or tools, if training on different operating systems) and prepare a hands-on walkthrough that works for the majority of your participants.</p>
+
+<p>Remember that it can take a <strong>substantial amount of time</strong> to back up an <strong>entire drive of data</strong>. For the purposes of illustrating how various backup systems work, have users choose one file to back up to illustrate a tool and the process of backing up during the session. Some options to consider, by operating system, are included below:</p>
+
+<h4 id="for-windows">For Windows</h4>
+<p><a href="http://www.cobiansoft.com/cobianbackup.htm">Cobian Backup</a> or <a href="https://support.microsoft.com/en-us/products/windows">BitLocker</a></p>
+<ul>
+  <li>For Windows users with admin/install rights on their device, these are good tool options if their version of Windows is licensed.</li>
+  <li>While Cobian Backup also gives users the option to “encrypt” their backup, it is <strong>not recommended</strong> to use Cobian for this function.   - For users based on Windows using <a href="http://portableapps.com/download">PortableApps</a>, the PortableApps Platform includes a backup function.</li>
+</ul>
+
+<h4 id="for-osx">For OSX</h4>
+<p><a href="https://support.apple.com/en-us/HT201250">Time Machine</a></p>
+<ul>
+  <li>This OSX-native utility, built into MacBooks to backup to an encrypted external drive or a trusted cloud storage system, is a popular option because it allows users to “fix it and forget it” for most set-ups.</li>
+</ul>
+
+<h5 id="for-linux">For Linux</h5>
+<p><a href="https://guardianproject.info/code/luks/">LUKS</a></p>
+<ul>
+  <li>Otherwise called the <strong>Linux Unified Key Setup</strong>, this is a disk encryption utility native to distributions of Linux. A benefit of LUKS, compared to other full-disk encryption, utilities is its platform-independent, cross-compatible protocol for encrypting and storing data.
+<br /><br /></li>
+</ul>
+
+<h1 id="deepening-introduction">Deepening (Introduction)</h1>
+<p>Before moving forward with a Deepening option (see <strong>Deepenings A and B</strong> below), either review or hand out the Backup Policy Form that includes definitions below - these are covered as well in both the <strong>Input</strong> section and the second page of the Backup Policy Form, but are useful for review nonetheless.</p>
+
+<h2 id="key-definitions">Key Definitions</h2>
+
+<h4 id="data-type">Data Type</h4>
+<p>As seen during the <strong>Activity</strong>, a data type can be many things (point to the matrices for examples). Many users decide to back up an entire device instead of having tailored backup plans for different data types; others may need to create specialized backup policies. Specialized policies are especially important for particular data types due to issues related to the sensitivity of the data, travel (particularly crossing borders), and the amount of changes to one data type versus another over time (e.g., a large volume of video editing or sound recordings, an organization’s email database).</p>
+
+<h4 id="master-copies">Master Copies</h4>
+<p>Master copies are the “original” version of the data - for example, the original photo or video taken, the first version of a document, etc. For most people, this would be whatever is on their laptop or their mobile device.</p>
+
+<h4 id="duplicates">Duplicates</h4>
+<p>Duplicates are a <strong>backup</strong> version of the master, or original, copy of the data in question.</p>
+
+<h4 id="backup-location">Backup Location</h4>
+<p>This is where a data backup is physically located - this can refer to everything from a laptop hard drive or USB drive to an email account or cloud storage account.</p>
+
+<h4 id="storage-device">Storage Device</h4>
+<p>What type of storage device are you using? This could be an external hard drive, a corporate cloud service (Google Drive, Dropbox), your own online server (ownCloud), or a small portable storage device like a USB flash drive.</p>
+
+<h4 id="types-of-backup">Types of Backup</h4>
+<p>There are four common backup types which are generally used in most backup programs and protocols - these are a <strong>Full Backup</strong>, a <strong>Differential Backup</strong>, an <strong>Incremental Backup</strong> and a <strong>Mirror Backup</strong>:</p>
+
+<h4 id="full-backup">Full Backup</h4>
+<p>The starting point for all other types of backup, containing <em>all the data in the selected folders and files</em>.  Because full backup stores all files and folders, frequently enacting full backups results in faster and simpler restore operations.</p>
+
+<h4 id="differential-backup">Differential Backup</h4>
+<p>This backup type contains <em>all files that have changed</em> since the last <strong>Full Backup</strong>. The advantage of a differential backup is that it shortens restore time compared to a full backup or an incremental backup, as it works only with data that has been altered.</p>
+
+<h4 id="incremental-backup">Incremental Backup</h4>
+<p>Stores all files that have changed since the last <strong>Full <em>or</em> Differential, <em>or</em> previous Incremental Backup</strong>. The advantage of an incremental backup is that it takes the least time to complete. This can also make historical versions of your data available - OSX’s <strong>Time Machine</strong> is an example of a popular Incremental Backup tool.</p>
+
+<h4 id="mirror-backup">Mirror Backup</h4>
+<p>Identical to a full backup, with the exception that the files are <em>not compressed</em> in .zip files (as they might normally be) and they cannot be protected with a password. A mirror backup is most frequently used to create an exact, mirror-image copy of the source data.
+<br /><br /></p>
+
+<h1 id="deepening-a-backup-tool-hands-on-session">Deepening A (<em>Backup Tool</em> Hands-on Session)</h1>
+
+<h2 id="step-1-what-where-why-when-and-which">Step 1: What, Where, Why, When, and Which</h2>
+<p>Begin this session by referring back to the <strong>What, Where, Why, When, and Which</strong> questions covered in the structure of the previous Input session on this topic:</p>
+<ul>
+  <li><em>What</em> is a data backup policy?</li>
+  <li><em>Where</em> might important data be found?</li>
+  <li><em>Why</em> or <em>why not</em> use the cloud?</li>
+  <li><em>When</em> should backups take place?</li>
+  <li><em>Which</em> backup type is best?</li>
+</ul>
+
+<p>These will be valuable framing questions as we look at the tool (or tools, if training on different tools for various operating systems) we’ll be covering in the Deepening. It will be useful to take these questions into consideration, with participants configuring the chosen tool(s) according to the “answers” to these questions we’ve identified already.
+<br /><br /></p>
+
+<h2 id="step-2-the-initial-backup">Step 2: The Initial Backup</h2>
+<p>Have participants install or open whichever tool they’ll be configuring for their device and/or operating system. Introduce them to the basic features, and demonstrate how to conduct a backup, remembering (due to timing) to start with backing up a sample file as opposed to an entire drive.</p>
+
+<p>Give everyone enough time to make their first, test backup, and to get a feel for the interface and features. Once everyone has successfully made their first backup, review the various settings for the backup tool(s), and discuss the option of scheduling backups regularly. If there are other key features for the tool, review these now as well.</p>
+
+<p>Explain that backups, especially for a very full hard drive, can take a substantial amount of time, so are best done when the computer is stationary for a long period of time (for laptops) in a safe place.</p>
+
+<p>If participants are backing up data to external hard drives, they should also encrypt those drives. If encryption has already been covered with participants, trainers may wish to review what their options are for local disk encryption; if it has not, trainers should refer to backups (the same backups even) when leading a session on encryption.
+<br /><br /></p>
+
+<h2 id="step-3-backup-locations">Step 3: Backup Locations</h2>
+
+<h3 id="how-many-locations-should-you-backup-to">How Many Locations Should You Backup To?</h3>
+<p>Discuss options for at least <strong>two backups</strong>, and how to design a backup policy and plan that has considered what the various “worst case scenarios” might be given their particular circumstances, such as:</p>
+<ul>
+  <li>Office raids (by law enforcement or otherwise)</li>
+  <li>Confiscation of devices</li>
+  <li>Loss of password or access control (forgotten, departing staff, etc.)</li>
+  <li>Natural disasters (floods, fire, earthquake, etc.)</li>
+</ul>
+
+<p>Base your recommendations on the concerns raised by participants for their particular situations and environments. Mention that you’ll be focusing on these also during the wrap-up for the session, to help solidify strategies for using the selected tool(s) for this session in the implementation of their backup policies.</p>
+
+<h5 id="trainers-note-1"><em>Trainer’s Note</em></h5>
+<p>Consider that for one or more particular data types (e.g., videos or photos) they may also need to have multiple backups in different locations, at least one of which is accessible without a network connection of some kind. Participants should be aware that hard drives can fail or be lost, and having only one backup can be risky in case something happens to that drive (especially for a large amount of valuable data, like an organization’s databases, or a large volume of videos or photographs).
+<br /><br /></p>
+
+<h2 id="step-4-timing-and-frequency-of-backups">Step 4: Timing and Frequency of Backups</h2>
+
+<h3 id="how-often-should-you-backup">How Often Should You Backup?</h3>
+<p>Go through the trade-offs of backing up on a daily basis, a weekly basis and a monthly basis - important for considering these tradeoffs are questions such as:</p>
+
+<h5 id="how-much-data-could-potentially-be-lost-with-each-of-these-options">How much data could potentially be lost with each of these options?</h5>
+<p>Consider that, if data is lost, the data recovered would be only as recent as the last time it was backed up.</p>
+
+<h5 id="how-much-time-would-each-backup-take-to-complete">How much time would each backup take to complete?</h5>
+<p>Generally, the more frequently backups occur, the less data there will be to save each time, making for shorter times.</p>
+
+<h5 id="can-backups-be-scheduled-for-a-device-isnt-being-used">Can backups be scheduled for a device isn’t being used?</h5>
+<p>If not, consider the impact of more frequent backups on participant’s ability to carry out day-to-day activities on their device(s).</p>
+
+<h5 id="how-much-storage-space-will-be-required">How much storage space will be required?</h5>
+<p>The more data, the more storage space needed - at a certain point, larger amounts of required storage space will become increasingly expensive to procure and maintain.</p>
+
+<h5 id="where-should-the-backups-be-physically-located">Where should the backups be physically located?</h5>
+<p>Remember that, the more backup media or locations that exist for an individual data type, the more varied and less physically proximate they are to one another, the better.</p>
+
+<h5 id="how-fast-and-in-which-way-would-you-need-to-access-your-backup">How fast and in which way would you need to access your backup?</h5>
+<p>For example, if traveling to document an event and your laptop dies, do you want to be able to access your backup on the cloud or on a portable hard drive? What are the trade-offs in this scenario?</p>
+
+<h5 id="optional-1"><em>Optional</em></h5>
+<p>If leading a mobile-focused training, or if using mobile to illustrate backup is preferable for your training, trainers might choose to demonstrate backing up an iPhone or Android device (depending on the most common device among participants). This would also be a key opportunity to have a discussion about the <strong>advantages and disadvantages</strong> of backing up to Apple’s servers and/or Google’s servers, and the usability, access and privacy tradeoffs involved. This also presents a valuable opportunity to discuss whether or not this choice reflects participants’ respective <strong>acceptable amount of risk</strong>, in particular when making choices about whether their data can be stored in the cloud on the servers of third-parties vs. locally on devices and servers under their own control.
+<br /><br /></p>
+
+<h1 id="deepening-b-backup-policy-hands-on-session">Deepening B (<em>Backup Policy</em> Hands-on Session)</h1>
+<p>If leading a backup policy hands-on session, either in supplement to or in place of a tool-focused session, there are a few different approaches trainers can take - below are included several such options:</p>
+
+<h2 id="option-1">Option 1</h2>
+<p>Go through each of the elements in a backup policy and the definitions involved, building off of the background established during the previous <strong>Input</strong> section. Depending on the group, you may want them to create either <strong>personal</strong> or <strong>organizational</strong> back-up policies, keeping in mind that sometimes an organizational policy might also include individual policies as well.</p>
+
+<h3 id="have-participants-either">Have participants either…</h3>
+<ol>
+  <li>
+    <p>Break up into small groups, to work on polcities collaboratively - especially useful for organizational policies;</p>
+  </li>
+  <li>
+    <p>Work alone to start drafting a policy; however. if crafting individual policies, either collaborative or individual can be encouraged.</p>
+  </li>
+</ol>
+
+<p>When participants regroup, trainers may choose to have them share and discuss what they’ve come up with (preferable); however, if time is short, wrapping up with questions during the <strong>Synthesis</strong> part of the module is another option.
+<br /><br /></p>
+
+<h2 id="option-2">Option 2</h2>
+<p>If you are limited for time, hand out the <strong>Backup Policy Form</strong> and list of definitions above. Ask them to work on it either <em>after</em> the workshop - be available to answer any questions they have, especially if the group will not be re-convening following this session.</p>
+
+<p>If you do this, you should follow up remotely to ask how their Backup Policy is coming along, be encouraging and remind them of the benefits of backing up, and answer any questions they may have.</p>
+
+<p>If participants are able to send encrypted attachments, the circumstances or context call for it, and there is sufficient trust between trainers and participants, trainers may also provide feedback directly to participants’ drafted policies.
+<br /><br /></p>
+
+
+</section>
+
+    </div>
+    
+
+<footer class="site-footer">
+<div>
+  <p><a class="site-footer-link" href="/community/about">About LevelUp</a></p>
+  <p><a class="site-footer-link" href="/news">News &amp; Updates</a></p>
+  <p><a class="site-footer-link" href="/license">CC-BY-SA 3.0 License</a></p>
+  <p><img src="https://img.shields.io/github/last-commit/levelupcc/level-up/gh-pages.svg" /> </p>
+</div>
+<div>
+  <p><a class="site-footer-link" href="/community/contribute/#how-can-i-provide-feedback">Contact</a></p>
+  <p><a class="site-footer-link" href="/community/contribute/#how-can-i-contribute-content">Contribute</a></p>
+  <p><a class="site-footer-link" href="/community/contribute/#annotate-and-discuss-content-with-hypothesis">Annotate with Hypothes.is</a></p>
+  <p><a class="site-footer-link" href="https://github.com/levelupcc/level-up" target="_blank">GitHub</a></p>
+</div>
+<div>
+  <p><a class="site-footer-link" href="/site-map">Site Map</a></p>
+</div>
+</footer>
+
+
+<!-- Matomo Image Tracker-->
+<img src="https://analytics.level-up.cc/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo -->
+
+  </div>
+  <script>
+    anchors.options.visible = "always";
+    anchors.add("h2");
+  </script>
+</body>
+
+</html>
