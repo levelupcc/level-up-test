@@ -3,10 +3,10 @@
   <channel>
     <title>LevelUp</title>
     <description>Resources for the global digital safety training community.</description>
-    <link>https://level-up.tin.fyi/</link>
-    <atom:link href="https://level-up.tin.fyi/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Sep 2023 17:44:58 +0000</pubDate>
-    <lastBuildDate>Sat, 23 Sep 2023 17:44:58 +0000</lastBuildDate>
+    <link>https://test.level-up.cc//</link>
+    <atom:link href="https://test.level-up.cc//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 09 Dec 2023 19:38:26 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Dec 2023 19:38:26 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -63,8 +63,8 @@ based directly on the feedback and input received from many of you.&lt;/p&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
-        <link>https://level-up.tin.fyi/news/2016-07-11-new-levelup-site-launch/</link>
-        <guid isPermaLink="true">https://level-up.tin.fyi/news/2016-07-11-new-levelup-site-launch/</guid>
+        <link>https://test.level-up.cc//news/2016-07-11-new-levelup-site-launch/</link>
+        <guid isPermaLink="true">https://test.level-up.cc//news/2016-07-11-new-levelup-site-launch/</guid>
         
         
         <category>news</category>
@@ -82,8 +82,8 @@ based directly on the feedback and input received from many of you.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
-        <link>https://level-up.tin.fyi/2016/05/28/fake.html</link>
-        <guid isPermaLink="true">https://level-up.tin.fyi/2016/05/28/fake.html</guid>
+        <link>https://test.level-up.cc//2016/05/28/fake.html</link>
+        <guid isPermaLink="true">https://test.level-up.cc//2016/05/28/fake.html</guid>
         
         
       </item>
@@ -93,8 +93,8 @@ based directly on the feedback and input received from many of you.&lt;/p&gt;
         <description>&lt;p&gt;Test. Test. Test.&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
-        <link>https://level-up.tin.fyi/community/community-resources-and-tools/2016-04-11-community/</link>
-        <guid isPermaLink="true">https://level-up.tin.fyi/community/community-resources-and-tools/2016-04-11-community/</guid>
+        <link>https://test.level-up.cc//community/community-resources-and-tools/2016-04-11-community/</link>
+        <guid isPermaLink="true">https://test.level-up.cc//community/community-resources-and-tools/2016-04-11-community/</guid>
         
         
         <category>resources</category>
